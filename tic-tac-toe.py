@@ -11,7 +11,7 @@ def check_coordinates():
     count = 1
     for i in cells:
         while True:
-            if count == 9:
+            if count == 9 and cells != " ":
                 print("Draw")
                 break
             else:
